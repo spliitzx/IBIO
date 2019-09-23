@@ -1,6 +1,5 @@
-# IBIO
+# IBIO (spliitzx fork)
 
-[![Version](https://jitpack.io/v/vardy/IBIO.svg)](https://jitpack.io/#vardy/IBIO)
 [![License](https://img.shields.io/github/license/vardy/IBIO?label=License)](https://github.com/vardy/IBIO/blob/master/LICENSE) 
 
 ## Overview
@@ -8,7 +7,12 @@
 This class provides a simplified interface between
 simple Java process for input and output and the methods
 defined in the IB's JETS standard for the Option C (OOP)
-examination.
+examination. **This fork** simplifies the existing methods
+by using generics rather than creating brand new methods for
+each type. Nothing is changed in terms of usage, except a
+massive code cleanup in the source.
+
+__This is not an official IBIO package.__
 
 ## Installation
 

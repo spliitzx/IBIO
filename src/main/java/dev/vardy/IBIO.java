@@ -1,36 +1,13 @@
 /* Original code by the International Baccalaureate Organisation.
  * Library and transposition by Jarred Vardy <jarred.vardy@gmail.com>.
+ * Generic adaptation by spliitzx
  */
 
 package dev.vardy;
 
 public class IBIO {
 
-    static void output(String info) {
-        System.out.println(info);
-    }
-
-    static void output(char info) {
-        System.out.println(info);
-    }
-
-    static void output(byte info) {
-        System.out.println(info);
-    }
-
-    static void output(int info) {
-        System.out.println(info);
-    }
-
-    static void output(long info) {
-        System.out.println(info);
-    }
-
-    static void output(double info) {
-        System.out.println(info);
-    }
-
-    static void output(boolean info) {
+    static <T> void output(T info) {
         System.out.println(info);
     }
 
